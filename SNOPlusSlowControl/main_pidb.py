@@ -83,7 +83,7 @@ if __name__ == '__main__':
             print("Debug mode: Nonlinear AV Position: ")
             print(Nonlin_AVPos)
         #Save the data to our couchDB
-        CouchConn.saveEntry(formattedPIData,c.ONEMINDBURL) #Will be from a couchutil instance
+       # CouchConn.saveEntry(formattedPIData,c.ONEMINDBURL) #Will be from a couchutil instance
          
         #Check data against alarm thresholds; post alarms if needed
         alarms_last = alarms_dict

@@ -2,3 +2,4 @@
 cronjobs/ios/compact.sh
 *.log
 *.json
+*.config.py

@@ -1,1 +1,196 @@
  
+2019-09-10 15:36:16,218 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-09-10 15:36:16,218 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-09-10 15:36:16,224 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-09-10 15:36:16,228 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-09-10 15:36:16,369 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-09-10 15:36:24,724 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-09-10 15:36:24,724 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-09-10 15:36:24,769     root ERROR Uncaught exception: matrices are not aligned
+None
+2019-09-10 15:36:24,769     root ERROR Error type: <type 'exceptions.ValueError'>
+None
+2019-09-10 15:36:24,770     root ERROR Traceback: ['  File "main_pidb.py", line 79, in <module>\n    Nonlin_AVPos = DataConverter.Rope_to_AVPos(Rope)\n', '  File "/raid/home/uwslowcontrol/tester/SNOPlusSlowControl/SNOPlusSlowControl/lib/dataconverters.py", line 85, in Rope_to_AVPos\n    x.append(np.dot(self.Matrix[i,:],self.rope) + dc.offset[i])\n']
+None
+2019-09-24 19:04:00,144 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-09-24 19:04:00,144 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-09-24 19:04:00,176 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-09-24 19:04:00,180 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-09-24 19:04:00,786 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-09-24 19:04:26,529 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-09-24 19:04:46,218     root ERROR Uncaught exception: 
+None
+2019-09-24 19:04:46,218     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-09-24 19:04:46,218     root ERROR Traceback: ['  File "main_pidb.py", line 111, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-10-02 14:28:17,005 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-02 14:28:17,005 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-02 14:28:17,012 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-02 14:28:17,018 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-02 14:28:17,165 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-02 14:28:32,376     root ERROR Uncaught exception: 
+None
+2019-10-02 14:28:32,376     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-10-02 14:28:32,376     root ERROR Traceback: ['  File "main_pidb.py", line 111, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-10-02 14:44:15,804 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-02 14:44:15,804 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-02 14:44:15,817 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-02 14:44:15,824 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-02 14:44:16,076 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-02 14:44:29,124 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-02 14:44:29,124 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-02 14:45:22,510     root ERROR Uncaught exception: 
+None
+2019-10-02 14:45:22,510     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-10-02 14:45:22,510     root ERROR Traceback: ['  File "main_pidb.py", line 112, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-10-02 14:48:38,177 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-02 14:48:38,177 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-02 14:48:38,191 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-02 14:48:38,195 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-02 14:48:38,505 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-02 14:48:54,542     root ERROR Uncaught exception: list indices must be integers, not str
+None
+2019-10-02 14:48:54,542     root ERROR Error type: <type 'exceptions.TypeError'>
+None
+2019-10-02 14:48:54,542     root ERROR Traceback: ['  File "main_pidb.py", line 81, in <module>\n    formattedPIData[\'Nonlin_AVPos\'][\'values\'] = Nonlin_AVPos\n']
+None
+2019-10-02 14:50:41,677 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-02 14:50:41,677 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-02 14:50:41,683 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-02 14:50:41,689 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-02 14:50:41,886 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-02 14:50:49,764 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-02 14:50:49,765 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-02 14:50:49,813     root ERROR Uncaught exception: list indices must be integers, not str
+None
+2019-10-02 14:50:49,813     root ERROR Error type: <type 'exceptions.TypeError'>
+None
+2019-10-02 14:50:49,813     root ERROR Traceback: ['  File "main_pidb.py", line 81, in <module>\n    formattedPIData[\'Nonlin_AVPos\'] = []\n']
+None
+2019-10-02 14:51:42,169 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-02 14:51:42,169 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-02 14:51:42,176 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-02 14:51:42,181 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-02 14:51:42,459 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-02 14:51:55,299     root ERROR Uncaught exception: 
+None
+2019-10-02 14:51:55,299     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-10-02 14:51:55,300     root ERROR Traceback: ['  File "main_pidb.py", line 114, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-10-02 14:53:12,754 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-02 14:53:12,755 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-02 14:53:12,761 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-02 14:53:12,766 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-02 14:53:12,918 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-02 14:53:20,994     root ERROR Uncaught exception: list indices must be integers, not str
+None
+2019-10-02 14:53:20,994     root ERROR Error type: <type 'exceptions.TypeError'>
+None
+2019-10-02 14:53:20,994     root ERROR Traceback: ['  File "main_pidb.py", line 82, in <module>\n    formattedPIData[0][\'Nonlin_AVPos\'][\'values\'] = Nonlin_AVPos\n']
+None
+2019-10-02 15:01:26,928 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-02 15:01:26,928 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-02 15:01:26,934 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-02 15:01:26,939 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-02 15:01:27,082 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-02 15:01:50,996     root ERROR Uncaught exception: 
+None
+2019-10-02 15:01:50,996     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-10-02 15:01:50,996     root ERROR Traceback: ['  File "main_pidb.py", line 115, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-10-03 17:30:26,902 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-03 17:30:26,902 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-03 17:30:26,934 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-03 17:30:26,939 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-03 17:30:27,283 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-03 17:30:53,359     root ERROR Uncaught exception: 
+None
+2019-10-03 17:30:53,360     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-10-03 17:30:53,360     root ERROR Traceback: ['  File "main_pidb.py", line 115, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-10-10 15:33:32,878 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-10 15:33:32,879 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-10 15:33:32,884 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-10 15:33:32,889 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-10 15:33:33,044 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-10 15:33:41,186 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-10 15:33:41,187 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-10 15:33:41,192 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-10 15:33:41,192 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-10 15:35:56,933 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-10 15:35:56,934 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-10-10 15:36:23,933     root ERROR Uncaught exception: 
+None
+2019-10-10 15:36:23,934     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-10-10 15:36:23,934     root ERROR Traceback: ['  File "main_pidb.py", line 115, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-10-10 15:37:25,877 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-10-10 15:37:25,877 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-10-10 15:37:25,883 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-10-10 15:37:25,887 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-10-10 15:37:26,035 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-10-10 15:38:16,449     root ERROR Uncaught exception: 
+None
+2019-10-10 15:38:16,450     root ERROR Error type: <type 'exceptions.KeyboardInterrupt'>
+None
+2019-10-10 15:38:16,450     root ERROR Traceback: ['  File "main_pidb.py", line 115, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
+None
+2019-11-12 16:31:14,451 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-11-12 16:31:14,458 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-11-12 16:31:14,465 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-11-12 16:31:14,477 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-11-12 16:31:14,629 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-11-12 16:31:22,509 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-11-12 16:31:22,510 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-11-12 16:31:22,553     root ERROR Uncaught exception: matrices are not aligned
+None
+2019-11-12 16:31:22,553     root ERROR Error type: <type 'exceptions.ValueError'>
+None
+2019-11-12 16:31:22,554     root ERROR Traceback: ['  File "main_pidb.py", line 79, in <module>\n    Nonlin_AVPos = DataConverter.Rope_to_AVPos(Rope)\n', '  File "/raid/home/uwslowcontrol/tester/SNOPlusSlowControl/SNOPlusSlowControl/lib/dataconverters.py", line 85, in Rope_to_AVPos\n    x.append(np.dot(self.Matrix[i,:],self.rope) + dc.offset[i])\n']
+None
+2019-11-12 16:32:32,467 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-11-12 16:32:32,468 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-11-12 16:32:32,473 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-11-12 16:32:32,478 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-11-12 16:32:32,634 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-11-12 16:32:40,656     root ERROR Uncaught exception: matrices are not aligned
+None
+2019-11-12 16:32:40,657     root ERROR Error type: <type 'exceptions.ValueError'>
+None
+2019-11-12 16:32:40,657     root ERROR Traceback: ['  File "main_pidb.py", line 79, in <module>\n    Nonlin_AVPos = DataConverter.Rope_to_AVPos(Rope)\n', '  File "/raid/home/uwslowcontrol/tester/SNOPlusSlowControl/SNOPlusSlowControl/lib/dataconverters.py", line 85, in Rope_to_AVPos\n    x.append(np.dot(self.Matrix[i,:],self.rope) + dc.offset[i])\n']
+None
+2019-11-12 16:37:01,420 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-11-12 16:37:01,420 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-11-12 16:37:01,426 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-11-12 16:37:01,431 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-11-12 16:37:01,576 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-11-12 16:37:09,676 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-11-12 16:37:09,676 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-11-12 16:37:09,727     root ERROR Uncaught exception: matrices are not aligned
+None
+2019-11-12 16:37:09,727     root ERROR Error type: <type 'exceptions.ValueError'>
+None
+2019-11-12 16:37:09,728     root ERROR Traceback: ['  File "main_pidb.py", line 79, in <module>\n    Nonlin_AVPos = DataConverter.Rope_to_AVPos(Rope)\n', '  File "/raid/home/uwslowcontrol/tester/SNOPlusSlowControl/SNOPlusSlowControl/lib/dataconverters.py", line 85, in Rope_to_AVPos\n    x.append(np.dot(self.Matrix[i,:],self.rope) + dc.offset[i])\n']
+None
+2019-11-12 16:41:56,854 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-11-12 16:41:56,854 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-11-12 16:41:56,864 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-11-12 16:41:56,868 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-11-12 16:41:57,021 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-11-12 16:42:05,011 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-11-12 16:42:05,012 lib.pigrabber  INFO There was an issue getting a channel value for: holddown_rope.  Leaving as N/A
+2019-11-12 16:42:05,061     root ERROR Uncaught exception: matrices are not aligned
+None
+2019-11-12 16:42:05,061     root ERROR Error type: <type 'exceptions.ValueError'>
+None
+2019-11-12 16:42:05,061     root ERROR Traceback: ['  File "main_pidb.py", line 79, in <module>\n    Nonlin_AVPos = DataConverter.Rope_to_AVPos(Rope)\n', '  File "/raid/home/uwslowcontrol/tester/SNOPlusSlowControl/SNOPlusSlowControl/lib/dataconverters.py", line 85, in Rope_to_AVPos\n    x.append(np.dot(self.Matrix[i,:],self.rope) + dc.offset[i])\n']
+None

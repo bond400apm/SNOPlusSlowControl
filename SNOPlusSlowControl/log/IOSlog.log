@@ -260,3 +260,14 @@ None
 None
 2019-01-25 12:04:53,801     root ERROR Traceback: ['  File "main_ios.py", line 122, in <module>\n    time.sleep(c.POLL_WAITTIME)\n']
 None
+2019-09-10 15:35:34,612 __main__  INFO PI_DB SCRIPT INITIALIZING...
+2019-09-10 15:35:34,612 lib.alarmserver  INFO Starting connection pool for alarms database
+2019-09-10 15:35:34,618 lib.alarmserver  INFO Starting alarm server connection heartbeat
+2019-09-10 15:35:34,623 lib.couchutils  INFO CouchDBConn: Got server instance successfully.
+2019-09-10 15:35:34,787 __main__  INFO main.py: Most recent channel database acquired on startup.
+2019-09-10 15:35:43,121     root ERROR Uncaught exception: matrices are not aligned
+None
+2019-09-10 15:35:43,121     root ERROR Error type: <type 'exceptions.ValueError'>
+None
+2019-09-10 15:35:43,121     root ERROR Traceback: ['  File "main_pidb.py", line 79, in <module>\n    Nonlin_AVPos = DataConverter.Rope_to_AVPos(Rope)\n', '  File "/raid/home/uwslowcontrol/tester/SNOPlusSlowControl/SNOPlusSlowControl/lib/dataconverters.py", line 85, in Rope_to_AVPos\n    x.append(np.dot(self.Matrix[i,:],self.rope) + dc.offset[i])\n']
+None

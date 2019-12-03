@@ -41,7 +41,9 @@ pi_list =[{"dbname":"UPW_plant_temp","channels":[1],"address":"DeltaV_311-TIT-14
               {"dbname":"AV_dP","channels":[1],"address":"DeltaV_321-DPT002/SCLR1/OUT.CV","method":1},\
               {"dbname":"AV_scint_height","channels":[1],"address":"DeltaV_LIC-AV-01-MOD/PID1/PV.CV","method":1},\
               {"dbname":"cavity_bathtub","channels":[1],"address":"DeltaV_311-LIT-100/AI1/PV.CV","method":1},\
-              {"dbname":"scint_volume_calc","channels":[1],"address":"DeltaV_FIC-AV-01-MOD-PID1/TOTALIZER.CV","method":1}]
+              {"dbname":"scint_volume_calc","channels":[1],"address":"DeltaV_FIC-AV-01-MOD-PID1/TOTALIZER.CV","method":1},\
+              {"dbname":"interface_bubbler_calc","channels":[1],"address":"SNMP_LAB_Interface_Height_Bubbler_calc","method":1},\
+              {"dbname":"interface_volumetric_calc","channels":[1],"address":"SNMP_LAB_Interface_Height_Volumetric_calc","method":1}]
 #Any dbs not in this list will search for new data in the most recent minute according to now's time
 #Any dbs in this list grab the most recent data point in the PI server
 getrecent_list = ["deck_humidity","deck_temp","control_room_temp","cover_gas","equator_monitor","AVsensorRope","AVneck",\
